@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eae6e6;
+}
+
+#home{
+   
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    
+    background-size: cover;
+    background-position: center center;
+  
+
+}
+.layer{
+   
+
+    color: aliceblue;
+   
+   
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7); 
+}
+
+.navbar-nav .nav-link.active{
+    position: relative;
+}
+.navbar-nav .nav-link.active::after{
+position: absolute;
+ content: "";
+ height: 2PX;
+ WIDTH:50PX;
+left: 0;
+bottom: 0;
+background-color: aliceblue;
+
+
+}
+.nav-link{
+   
+    color: aliceblue;
+}
+
+.type{
+    font-size: 33px;
+}
+.type::after{
+
+    content: "";
+    animation: typing 5s infinite;
+}
+@keyframes typing{
+    0%{
+        content: "Mi|";
+    }
+    5%{
+        content: "Mila|";
+    }
+    10%{
+        content: "milad  |";
+    }
+    15%{
+        content: "Milad Sh|";
+    }
+    20%{
+        content: "Milad Sheh|";
+    }
+    25%{
+        content: "Milad Shehata|";
+    }
+    30%{
+        content: "Milad Shehata|";
+    }
+    33%{
+        content: "Milad Sheha|";
+    }
+    37%{
+        content: "Milad Sh|";
+    }
+    40%{
+        content: "Milad|";
+    }
+    43%{
+        content: "Mil|";
+    }
+    47%{
+        content: "|";
+    }
+    50%{
+        content: "dev|";
+    }
+    53%{
+        content: "devol|";
+    }
+    57%{
+        content: "devolop|";
+    }
+    60%{
+        content: "devoloper|";
+    }
+    63%{
+        content: "devoloper|";
+    }
+   67%{
+        content: "devolop|";
+    }
+    70%{
+        content: "devol|";
+    }
+    77%{
+        content: "dev|";
+    }
+    80%{
+        content: "|";
+    }
+    83%{
+        content: "de|";
+    }
+    86%{
+        content: "des|";
+    }
+    88%{
+        content: "desi|";
+    }
+    90%{
+        content: "design|";
+    }
+    92%{
+        content: "designer|";
+    }
+    94%{
+        content: "designer|";
+    }
+    96%{
+        content: "design|";
+    }
+    98%{
+        content: "des|";
+    }
+    99%{
+        content: "|";
+    } 
+    100%{
+        content: "|";
+    }
+}
+
+.icon i{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+.progress{
+    height: 30px;
+}
+
+.med{
+background-color: black;
+color: aliceblue;
+}
+.tit{
+    color: #999;
+}
+.par{
+    color: rgb(147, 144, 144);
+}
+
+
+
+.medd{
+    
+    background-color: rgb(203, 203, 203);
+}
+
+.btn-outline-dark{
+    border: rgb(203, 203, 203) ;
+}
+
+
+.lay{
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+   transition: all  1s ;
+}
+.secimg img{
+  
+    width: 100%;
+}
+    .lay:hover{
+   opacity: .9  ;
+}  
+
+.carousel-indicators{
+    bottom: -10;
+}
+
+.carousel-indicators .active{ 
+    
+
+    width: 10px;
+    height: 10px;
+     border-radius: 50%;
+     background-color: black;
+}
+.carousel-indicators .active1{ 
+    
+  
+    width: 10px;
+    height: 10px;
+     border-radius: 50%;
+     background-color: black;
+}
+
+
+.more::after{
+    position: absolute;
+ content: "";
+ width: 50px;
+ height: 2px;
+ background-color: black;
+left: 10px;
+bottom: 10px;
+}
+
+
+
+.secimg{
+
+
+    overflow: hidden;
+    
+ }
+.secimg img{
+    transition: all  1s ease-in-out;
+    width: 100%;
+}
+
+.secimg img:hover{
+    transform: scale(1.5);
+}  
+
+
+.icn{
+    text-align: center;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
